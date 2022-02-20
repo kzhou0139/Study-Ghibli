@@ -20,7 +20,7 @@ During online school last year, it was especially hard for many students to stay
 
 ←Totoro.html; Howls.html; Ponyo.html; Spirited_Away.html: includes the pages for our different study environments
 
-← enivronmet.css: This is the styling for all the different study environments
+← enivronment.css: This is the styling for all the different study environments
 
 ← music_environments.js: These are the different environmental sounds that we play in each study environment
 
