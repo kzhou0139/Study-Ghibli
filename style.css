@@ -1,0 +1,159 @@
+/* a minimalist set of CSS resets */
+/*Helen importing fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Unica+One&display=swap");
+
+/***************************************DEFAULTS***************************************/
+
+/* default to border-box */
+* {
+  box-sizing: border-box;
+  font-family: "Gemunu Libre", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* adjust typography defaults */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+.audio {
+  margin-top: 50px;
+}
+
+/***************************************INDEX***************************************/
+.intropage {
+  background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885)
+  no-repeat center center fixed;
+  display: flex;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.welcome {
+  text-align: center;
+  margin: 10px;
+  color: rgb(243, 171, 255);
+  font-size: 50px;
+  margin-left:-8px;
+}
+
+.studyghibli {
+  display: flex;
+  justify-content: center;
+  color: rgb(224, 50, 253);
+  font-family: "Unica One", cursive;
+  font-size: 50px;
+}
+
+#study{
+  font-size: 60px;
+  text-shadow: 2px 2px  #6A1284;
+}
+
+#ghibli{
+  font-size: 60px;
+  text-shadow: 2px 2px  #6A1284;
+}
+
+#homeghibliicon {
+  width: 50px;
+  height: 60px;
+  border-radius: 30%;
+  margin: 15px 15px 20px 20px;
+  margin-top: 5px;
+}
+
+.startbutton a{
+  display: in-line;
+  font-size: 30px;
+  color:rgb(160,20,184);
+  text-align:center;
+  text-decoration: none;
+  border-radius:12px;
+  border: none;
+}
+
+.startbutton button{
+  background-color: #E1C7E6; 
+  border: none;
+  padding: .5em 1.25em;
+  border-radius: 12px;
+  margin-left:-12px;
+  margin-top:10px;
+}
+
+.startbutton button:hover {
+  box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
+  -o-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
+  border-radius:12px;
+}
+
+.introtext {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/***************************************DIRECTORY***************************************/
+#dirHead {
+  font-size: 4em;
+  text-align: center;
+  color: #e368b2;
+  letter-spacing: 3px;
+  padding-bottom: 5%;
+}
+
+.bord {
+  display:flex;
+  border: 2vh purple solid;
+  overflow: hidden;
+  background-size:cover;
+  height: 100%;
+  width: 100%;
+  margin: none;
+}
+
+.images {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  border-radius:8px;
+}
+
+.dirImg {
+  width: 35vh;
+  height: 60vh;
+}
+
+.dirImg:hover {
+  box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
+  -o-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
+}
+
+
+
